@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-void main()
+int isTrueChoice(int input, int inputArray[9]);
+int gameIsOver(int table[3][3]);
+void tableMaker(int table[3][3]);
+int main()
 {
     int table[3][3];
     int input[9];
